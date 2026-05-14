@@ -2,6 +2,8 @@
 
 # 🛡️ Sardor Antivirus Pro — Elite Shield
 
+### Enterprise Cybersecurity · Real-Time Threat Detection · SOC Dashboard
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-Latest-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
@@ -15,52 +17,40 @@
   <img src="https://img.shields.io/github/forks/builtbysardor/Antivirus-pro-?style=flat-square" />
   <img src="https://img.shields.io/github/last-commit/builtbysardor/Antivirus-pro-?style=flat-square" />
   <img src="https://img.shields.io/badge/Platform-Web-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Engine-Sentinel_Core_v2.7-00ffaa?style=flat-square" />
 </p>
 
 <br/>
 
-> **Enterprise-grade cybersecurity dashboard** with real-time radar scanning, heuristic threat analytics,  
+> **Enterprise-grade cybersecurity dashboard** with real-time radar scanning, heuristic threat analytics,
 > VirusTotal & MetaDefender API integration, and a futuristic glassmorphism SOC interface.
 
 <br/>
 
-**[🚀 Quick Start](#-quick-start) • [📸 Screenshots](#-screenshots) • [⚙️ Architecture](#️-architecture) • [🤝 Contribute](#-contributing)**
+**[🚀 Quick Start](#-quick-start) · [📸 Screenshots](#-screenshots) · [🎥 Demo Video](#-demo-video) · [🏗️ Architecture](#-architecture) · [🤝 Contribute](#-contributing)**
 
 </div>
 
 ---
 
-## 🎥 Live Demo
+## 🎥 Demo Video
 
-<div align="center">
+[![Watch Demo](https://img.shields.io/badge/▶_Watch_Demo-Antivirus_Pro_in_Action-FF0000?style=for-the-badge&logo=youtube)](https://github.com/builtbysardor/Antivirus-pro-)
 
-![Elite Demo](./screenshots/demo_video.webp)
-*Real-time security scan with 360° cyber-radar animation*
+> 📹 *Upload your demo recording to `screenshots/demo_video.webp` and embed it here:*
+> `![Demo](https://raw.githubusercontent.com/builtbysardor/Antivirus-pro-/main/screenshots/demo_video.webp)`
 
-</div>
+**Current demo recording (if available):**
+
+![Demo Video](screenshots/demo_video.webp)
 
 ---
 
 ## 📸 Screenshots
 
-<div align="center">
+### 🖥️ Elite SOC Dashboard — Full Monitoring Console
+![Elite SOC Dashboard](screenshots/elite_web_dashboard.png)
 
-![Elite Dashboard](./screenshots/elite_web_dashboard.png)
-*Elite SOC Dashboard — Full monitoring console*
-
-</div>
-
-<details>
-<summary>📷 More Screenshots</summary>
-<br/>
-
-| Threat Analytics | Heuristic Logs |
-|:---:|:---:|
-| ![Analytics](./screenshots/analytics.png) | ![Logs](./screenshots/logs.png) |
-| *Real-time intensity charts* | *Detailed analysis cycle logs* |
-
-</details>
+> 💡 *Add more screenshots to the `screenshots/` folder and embed them here.*
 
 ---
 
@@ -84,29 +74,29 @@
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FRONTEND                             │
-│  Vanilla JS · Modern CSS3 · Chart.js                   │
+│                      FRONTEND                           │
+│           Vanilla JS · Modern CSS3 · Chart.js           │
 │                                                         │
-│  ├── Cyber-Radar Scanner (Canvas animation)            │
-│  ├── Threat Analytics Dashboard (Chart.js)             │
-│  ├── Shield Integrity Monitor (live gauges)            │
-│  ├── Global Threat Ticker (live feed)                  │
-│  └── Heuristic Log Viewer (real-time stream)           │
+│  ├── Cyber-Radar Scanner    (Canvas animation)          │
+│  ├── Threat Analytics       (Chart.js)                  │
+│  ├── Shield Integrity       (live gauges)               │
+│  ├── Global Threat Ticker   (live feed)                 │
+│  └── Heuristic Log Viewer   (real-time stream)          │
 └──────────────────────┬──────────────────────────────────┘
                        │ REST API (HTTP)
 ┌──────────────────────▼──────────────────────────────────┐
-│                    BACKEND                              │
-│  Python 3.12 · FastAPI · High-concurrency scanning     │
+│                      BACKEND                            │
+│       Python 3.12 · FastAPI · High-concurrency          │
 │                                                         │
-│  ├── /scan        — File & URL scanning endpoint       │
-│  ├── /virustotal  — VirusTotal API integration         │
-│  ├── /metadefender— MetaDefender API integration       │
-│  └── /logs        — Heuristic analysis log stream      │
+│  ├── /scan         — File & URL scanning endpoint       │
+│  ├── /virustotal   — VirusTotal API integration         │
+│  ├── /metadefender — MetaDefender API integration       │
+│  └── /logs         — Heuristic analysis log stream      │
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
-│              EXTERNAL APIs                              │
-│  VirusTotal API · MetaDefender API                     │
+│                   EXTERNAL APIs                         │
+│            VirusTotal API · MetaDefender API            │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -114,12 +104,12 @@
 
 ## 🛠️ Tech Stack
 
-```
-Backend:   Python 3.12 · FastAPI · SHA-256 Fingerprinting
-APIs:      VirusTotal · MetaDefender
-Frontend:  Vanilla JS · Modern CSS3 · Chart.js
-Design:    Glassmorphism · Cyberpunk Dark Theme
-```
+| Layer | Technologies |
+|-------|-------------|
+| **Backend** | Python 3.12 · FastAPI · SHA-256 Fingerprinting |
+| **APIs** | VirusTotal · MetaDefender |
+| **Frontend** | Vanilla JS · Modern CSS3 · Chart.js |
+| **Design** | Glassmorphism · Cyberpunk Dark Theme |
 
 ---
 
@@ -156,7 +146,7 @@ open frontend/index.html
 xdg-open frontend/index.html
 ```
 
-The dashboard will be available at `http://localhost:8000` 🎉
+The dashboard will be available at **http://localhost:8000** 🎉
 
 ---
 
@@ -165,13 +155,13 @@ The dashboard will be available at `http://localhost:8000` 🎉
 ```
 Antivirus-pro-/
 ├── backend/
-│   └── main.py           # FastAPI server — scanning endpoints
+│   └── main.py              # FastAPI server — scanning endpoints
 ├── frontend/
-│   ├── index.html        # Dashboard UI entry point
-│   ├── style.css         # Glassmorphism cyberpunk theme
-│   └── app.js            # Radar animation & Chart.js logic
+│   ├── index.html           # Dashboard UI entry point
+│   ├── style.css            # Glassmorphism cyberpunk theme
+│   └── app.js               # Radar animation & Chart.js logic
 ├── screenshots/
-│   ├── demo_video.webp   # Live demo recording
+│   ├── demo_video.webp      # Live demo recording
 │   └── elite_web_dashboard.png
 ├── requirements.txt
 ├── .env.example
@@ -182,13 +172,13 @@ Antivirus-pro-/
 
 ## 🔮 Roadmap
 
-- [ ] 🗂️ **File upload scanning** — drag & drop file analysis
-- [ ] 📧 **Email attachment scanner** — EML file analysis
-- [ ] 🐳 **Docker deployment** — one-command containerized setup
-- [ ] 📱 **Mobile responsive UI** — on-the-go security monitoring
-- [ ] 📊 **Threat history database** — SQLite-based scan history
-- [ ] 🔔 **Alert notifications** — Telegram & email alerts on threats
-- [ ] 🌍 **Threat map** — global IP geolocation visualization
+- [ ] 🗂️ File upload scanning — drag & drop file analysis
+- [ ] 📧 Email attachment scanner — EML file analysis
+- [ ] 🐳 Docker deployment — one-command containerized setup
+- [ ] 📱 Mobile responsive UI — on-the-go security monitoring
+- [ ] 📊 Threat history database — SQLite-based scan history
+- [ ] 🔔 Alert notifications — Telegram & email alerts on threats
+- [ ] 🌍 Threat map — global IP geolocation visualization
 
 ---
 
@@ -210,8 +200,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**Built with ❤️ by [Sardor Buriyev](https://github.com/builtbysardor)**
+**Built with ❤️ by [Sardor](https://github.com/builtbysardor) · Samarkand, Uzbekistan 🇺🇿**
 
-⭐ **Star this repo if it helped you!**
+⭐ *Star this repo if it helped you — it means the world!*
 
 </div>
