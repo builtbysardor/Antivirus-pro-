@@ -1,0 +1,4 @@
+PyQt5
+virustotal-python
+requests
+qt-material
